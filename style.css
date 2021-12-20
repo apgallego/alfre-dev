@@ -15,18 +15,13 @@ body {
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
-h2{
-    font-family: nexa, Arial, Helvetica, sans-serif;
-}
-ul{
-    list-style: none;
-}
+h2{font-family: nexa, Arial, Helvetica, sans-serif;}
+ul{list-style: none;}
 a{
     font-weight: bold;
-}
-a::marker, a:visited{
     color: black;
 }
+/* a::marker, a:visited{color: black;} */
 a:hover{color: crimson;}
 @keyframes gradient {
     0% {
@@ -41,8 +36,9 @@ a:hover{color: crimson;}
 }
 .container{
     margin: auto;
-    height:95vh;
-    width:95vw;
+    display: grid;
+    height:95%;
+    width:95%;
     background-color:rgba(255,255,255,.3);
     border-radius:21px;
     box-shadow:0 19px 38px rgba(128,128,128,.3),0 15px 12px rgba(128,128,128,.3);
